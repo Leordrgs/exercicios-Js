@@ -6,3 +6,22 @@ Quando isso funcionar, modifique seu programa para imprimir "FizzBuzz" para
  números que são divisíveis por 3 e 5 (ao mesmo tempo), além de continuar 
  imprimindo "Fizz" ou "Buzz" como antes.*/
  
+ var i;
+
+for (i=1; i<=100; i++){
+    if (i % 3 == 0){
+        console.log("Fizz");
+    }
+    if (i % 5 == 0){
+        console.log("Buzz");
+    }
+
+    if (i % 3 != 0 && i % 5 != 0){
+        console.log(i);
+    }
+
+    if (i % 3 == 0 && i % 5 == 0){
+        console.log("FizzBuzz");
+    }
+
+}
